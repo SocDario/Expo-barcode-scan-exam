@@ -22,7 +22,9 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <Link href="/camera-view">Navigate to Camera View</Link>
+        <Link style={{ color: "white" }} href="/camera-view">
+          Navigate to Camera View
+        </Link>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
           Edit{" "}
